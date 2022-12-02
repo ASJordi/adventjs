@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "jest"
+    "test": "jest day-one.test.js"
   },
   "keywords": [],
   "author": "Jordi Ayala",
