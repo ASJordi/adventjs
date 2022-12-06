@@ -1,21 +1,11 @@
 function fitsInOneBox(boxes) {
-
-  const boxOrder = boxes.sort((a, b) => a.l - b.l);
-
-  const order = boxOrder.map((box, i) => {
-
-    if(i + 1 < boxOrder.length){
-      return box.l < boxOrder[i + 1].l 
-      && box.w < boxOrder[i + 1].w 
-      && box.h < boxOrder[i + 1].h;
-    } else{
-      return true;
-    }
-
+  return boxes.sort((a, b) => {
+    return (a.l + a.w + a.h) - (b.l + b.w + b.h)
+  }).every((box, i) => { 
+    if( i === 0 ) return true; 
+    const prev = boxes[i - 1] 
+    return box.l > prev.l && box.w > prev.w && box.h > prev.h 
   });
-
-  return !order.some(ele => !ele);
-
 }
 
 module.exports = fitsInOneBox;
