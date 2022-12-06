@@ -1,14 +1,8 @@
-function wrapping(gifts) {
-
-  let wrapped = [];
-  let paper = '*';
-
-  gifts.forEach((gift) =>{
-    let wrap = paper.repeat(gift.length + 2);
-    wrapped.push(wrap + "\n" + paper + gift + paper + "\n" + wrap);
-  });
-
-  return wrapped;
+function wrapping (gifts) {
+  return gifts.map(gift => { 
+    const papel = "*".repeat(gift.length + 2)
+    return `${papel}\n*${gift}*\n${papel}`
+  })
 }
 
 module.exports = wrapping;
