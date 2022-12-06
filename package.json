@@ -6,7 +6,13 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "jest day-six.test.js"
+    "test": "jest",
+    "test:1": "jest day-one.test.js",
+    "test:2": "jest day-two.test.js",
+    "test:3": "jest day-three.test.js",
+    "test:4": "jest day-four.test.js",
+    "test:5": "jest day-five.test.js",
+    "test:6": "jest day-six.test.js"
   },
   "keywords": [],
   "author": "Jordi Ayala",
