@@ -5,7 +5,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Tests][tests-shield]][tests-url]
 
 <br />
 <div align="center">
@@ -37,14 +37,22 @@
 
 ## Challenges
 
-|  #  |                  Name                             |   Difficulty   |                                       Solution                                  |
+<details open>
+<summary>Show / Hide</summary>
+
+|  #  |                  Name                             | Difficulty[^1] |                                       Solution                                  |
 | :-: | :-----------------------------------------------: | :------------: |  :--------------------------------------------------------------------------: |
-| 01  |    Automating Christmas gift wrapping!            |       🟢       | [Solution](https://github.com/ASJordi/adventjs/tree/main/src/day-one) |
-| 02  |  Nobody wants to do extra hours at work           |       🟢       | [Solution](https://github.com/ASJordi/adventjs/tree/main/src/day-two) |
-| 03  |     How many packs of gifts can Santa carry?      |       🟢       | [Solution](https://github.com/ASJordi/adventjs/tree/main/src/day-three) |
-| 04  |      Box inside a box and another...              |       🟠       | [Solution](https://github.com/ASJordi/adventjs/tree/main/src/day-four) |
-| 05  |            Optimizing Santa's trips               |       🔴       | [Solution](https://github.com/ASJordi/adventjs/tree/main/src/day-five) |
-| 06  |             Creating xmas decorations             |       🟠       | [Solution](https://github.com/ASJordi/adventjs/tree/main/src/day-six) |
+| 01  |    Automating Christmas gift wrapping!            |       🟢       | [Solution](src/day-one) |
+| 02  |  Nobody wants to do extra hours at work           |       🟢       | [Solution](src/day-two) |
+| 03  |     How many packs of gifts can Santa carry?      |       🟢       | [Solution](src/day-three) |
+| 04  |      Box inside a box and another...              |       🟠       | [Solution](src/day-four) |
+| 05  |            Optimizing Santa's trips               |       🔴       | [Solution](src/day-five) |
+| 06  |             Creating xmas decorations             |       🟠       | [Solution](src/day-six) |
+| 07  |             Names             |       🟢       | [Solution](src/day-seven) |
+
+[^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
+
+</details>
 
 <br/>
 
@@ -109,5 +117,5 @@ Project link: [https://github.com/ASJordi/adventjs](https://github.com/ASJordi/a
 [issues-url]: https://github.com/ASJordi/adventjs/issues
 [license-shield]: https://img.shields.io/github/license/ASJordi/adventjs.svg?style=for-the-badge
 [license-url]: https://github.com/ASJordi/adventjs/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/ASJordi
+[tests-shield]: https://img.shields.io/github/workflow/status/asjordi/adventjs/Results?style=for-the-badge&logo=github&label=RESULTS
+[tests-url]: https://github.com/ASJordi/adventjs/actions
