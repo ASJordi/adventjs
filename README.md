@@ -16,8 +16,10 @@
   </p>
 </div>
 
+## Content
+
 <details>
-  <summary>Content</summary>
+  <summary>Show / Hide</summary>
   <ol>
     <li><a href="#challenges">Challenges</a></li>
     <li>

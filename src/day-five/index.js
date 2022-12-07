@@ -1,24 +1,19 @@
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
-  let maxPossibleGifts = 0;
-
-  const findMaxPossibleGifts = (numbers, combinationsPath) => {
-    if(combinationsPath.length <= maxCities){
-      const combinationSum = combinationsPath.reduce((sum, number) => sum + number, 0);
-      if(combinationSum <= maxGifts && combinationSum > maxPossibleGifts){
-        maxPossibleGifts = combinationSum;
-      }
-    }
-
-    numbers.forEach((number, index, numbersList) => {
-      combinationsPath.push(number);
-      findMaxPossibleGifts(numbersList.slice(index + 1), combinationsPath);
-      combinationsPath.pop(number);
-    });
-  };
-
-  findMaxPossibleGifts(giftsCities, []);
-
-  return maxPossibleGifts;
+  return Math.max(
+    ...giftsCities
+      .reduce(
+        (acc, giftsCities) =>
+          acc.concat(acc.map((e) => [giftsCities].concat(e))),
+        [[]]
+      )
+      .filter(
+        (solution) =>
+          solution.length <= maxCities &&
+          solution.reduce((acc, gifts) => (acc += gifts), 0) <= maxGifts &&
+          true
+      )
+      .map((solution) => solution.reduce((acc, b) => acc + b, 0))
+  );
 }
 
 module.exports = getMaxGifts;
