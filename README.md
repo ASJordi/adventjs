@@ -50,7 +50,7 @@
 | 04  |      Box inside a box and another...              |       🟠       | [Solution](src/day-four) |
 | 05  |            Optimizing Santa's trips               |       🔴       | [Solution](src/day-five) |
 | 06  |             Creating xmas decorations             |       🟠       | [Solution](src/day-six) |
-| 07  |             Names             |       🟢       | [Solution](src/day-seven) |
+| 07  |             Doing gifts inventory                 |       🟢       | [Solution](src/day-seven) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
