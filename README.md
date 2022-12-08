@@ -51,6 +51,7 @@
 | 05  |            Optimizing Santa's trips               |       🔴       | [Solution](src/day-five) |
 | 06  |             Creating xmas decorations             |       🟠       | [Solution](src/day-six) |
 | 07  |             Doing gifts inventory                 |       🟢       | [Solution](src/day-seven) |
+| 08  |             We need a mechanic!                   |       🟠       | [Solution](src/day-eight) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
