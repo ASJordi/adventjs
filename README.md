@@ -53,6 +53,7 @@
 | 07  |             Doing gifts inventory                 |       🟢       | [Solution](src/day-seven) |
 | 08  |             We need a mechanic!                   |       🟠       | [Solution](src/day-eight) |
 | 09  |             Crazy Xmas lights                     |       🟢       | [Solution](src/day-nine) |
+| 10  |    The Santa Claus sleigh jump                    |       🟠       | [Solution](src/day-ten) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
