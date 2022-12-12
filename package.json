@@ -1,12 +1,32 @@
 {
   "name": "adventjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal solutions to the challenges of Adventjs 2022",
+  "keywords": [
+    "adventjs", 
+    "midudev", 
+    "javascript"
+  ],
+  "author": "Jordi Ayala (@ASJordi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ASJordi/adventjs"
+  },
+  "bugs": {
+    "url": "https://github.com/ASJordi/adventjs/issues"
+  },
+  "homepage": "https://github.com/ASJordi/adventjs#readme",
   "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.19.2"
+  },
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
     "test": "jest",
+    "test:watch": "npm run test -- --watch",
     "test:1": "jest day-one.test.js",
     "test:2": "jest day-two.test.js",
     "test:3": "jest day-three.test.js",
@@ -20,9 +40,6 @@
     "test:11": "jest day-eleven.test.js",
     "test:12": "jest day-twelve.test.js"
   },
-  "keywords": [],
-  "author": "Jordi Ayala",
-  "license": "ISC",
   "devDependencies": {
     "jest": "^29.3.1",
     "nodemon": "^2.0.20"
