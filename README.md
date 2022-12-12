@@ -55,6 +55,7 @@
 | 09  |             Crazy Xmas lights                     |       🟢       | [Solution](src/day-nine) |
 | 10  |    The Santa Claus sleigh jump                    |       🟠       | [Solution](src/day-ten) |
 | 11  |          Santa Claus is Scrum Master              |       🔴       | [Solution](src/day-eleven) |
+| 12  |          Electric sleighs, wow!                   |       🟠       | [Solution](src/day-twelve) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
