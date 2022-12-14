@@ -57,6 +57,7 @@
 | 11  |          Santa Claus is Scrum Master              |       🔴       | [Solution](src/day-eleven) |
 | 12  |          Electric sleighs, wow!                   |       🟠       | [Solution](src/day-twelve) |
 | 13  |          Backups for Santa Claus files            |       🟢       | [Solution](src/day-thirteen) |
+| 14  |              The best path                        |       🟠       | [Solution](src/day-fourteen) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
