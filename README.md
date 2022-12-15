@@ -58,6 +58,7 @@
 | 12  |          Electric sleighs, wow!                   |       🟠       | [Solution](src/day-twelve) |
 | 13  |          Backups for Santa Claus files            |       🟢       | [Solution](src/day-thirteen) |
 | 14  |              The best path                        |       🟠       | [Solution](src/day-fourteen) |
+| 15  |              Decorating the Christmas tree        |       🟠       | [Solution](src/day-fifteen) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
