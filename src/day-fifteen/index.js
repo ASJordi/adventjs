@@ -1,5 +1,7 @@
 function decorateTree(base) {
 
+  const tree = base.split(" ");
+  
   const combOfDecorations = {
     "PP":  "P",
     "BP":  "R",
@@ -12,14 +14,15 @@ function decorateTree(base) {
     "PR":  "B"
   }
 
-  base = base.split(" ")
-  let decorations = new Array(base.length - 1).fill(base)
-  return decorations.reduce((total, x) =>
-    total.concat(
-      [new Array(total.at(-1).length - 1).fill("-").map((_, i) => {
-        return combOfDecorations[total.at(-1).slice(i, i + 2).join("")]
-      }).flat()]
-    ),[base]).slice(0, base.length).map(x => x.join(" ")).reverse()
+  const nextLevel = (el = []) => {
+    return el.slice(1).map((_, i) => combOfDecorations[el[i] + el[i + 1]]);
+  };
+
+  return tree
+    .slice(1)
+    .reduce((acc, _, index) => [...acc, nextLevel(acc[index])], [tree])
+    .reverse()
+    .map((el) => el.join(" "));
 }
 
 module.exports = decorateTree;
