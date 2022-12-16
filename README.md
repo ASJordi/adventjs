@@ -127,5 +127,5 @@ Project link: [https://github.com/ASJordi/adventjs](https://github.com/ASJordi/a
 [issues-url]: https://github.com/ASJordi/adventjs/issues
 [license-shield]: https://img.shields.io/github/license/ASJordi/adventjs.svg?style=for-the-badge
 [license-url]: https://github.com/ASJordi/adventjs/blob/master/LICENSE
-[tests-shield]: https://img.shields.io/github/workflow/status/asjordi/adventjs/Results?style=for-the-badge&logo=github&label=RESULTS
+[tests-shield]: https://img.shields.io/github/actions/workflow/status/asjordi/adventjs/results.yml?branch=main&label=Tests&style=for-the-badge
 [tests-url]: https://github.com/ASJordi/adventjs/actions
