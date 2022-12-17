@@ -59,7 +59,8 @@
 | 13  |          Backups for Santa Claus files            |       🟢       | [Solution](src/day-thirteen) |
 | 14  |              The best path                        |       🟠       | [Solution](src/day-fourteen) |
 | 15  |              Decorating the Christmas tree        |       🟠       | [Solution](src/day-fifteen) |
-| 16  |              Fixing Santa Claus' letters          |       🟠       | [Solution](src/day-sixteen) |
+| 16  |              Fixing Santa Claus' letters          |       🔴       | [Solution](src/day-sixteen) |
+| 17  |               Carrying gifts in bags              |       🟠       | [Solution](src/day-seventeen) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
