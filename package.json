@@ -43,7 +43,8 @@
     "test:14": "jest day-fourteen.test.js",
     "test:15": "jest day-fifteen.test.js",
     "test:16": "jest day-sixteen.test.js",
-    "test:17": "jest day-seventeen.test.js"
+    "test:17": "jest day-seventeen.test.js",
+    "test:18": "jest day-eighteen.test.js"
   },
   "devDependencies": {
     "jest": "^29.3.1",

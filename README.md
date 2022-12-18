@@ -61,6 +61,7 @@
 | 15  |              Decorating the Christmas tree        |       🟠       | [Solution](src/day-fifteen) |
 | 16  |              Fixing Santa Claus' letters          |       🔴       | [Solution](src/day-sixteen) |
 | 17  |               Carrying gifts in bags              |       🟠       | [Solution](src/day-seventeen) |
+| 18  |               We ran out of ink!                  |       🟢       | [Solution](src/day-eighteen) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
