@@ -63,6 +63,7 @@
 | 17  |               Carrying gifts in bags              |       🟠       | [Solution](src/day-seventeen) |
 | 18  |               We ran out of ink!                  |       🟢       | [Solution](src/day-eighteen) |
 | 19  |               Sorting the toys!                   |       🟢       | [Solution](src/day-nineteen) |
+| 20  |               More challenging trips              |       🔴       | [Solution](src/day-twenty) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
