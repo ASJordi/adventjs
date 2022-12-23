@@ -66,6 +66,7 @@
 | 20  |               More challenging trips              |       🔴       | [Solution](src/day-twenty) |
 | 21  |               Creating the gifts table            |       🟠       | [Solution](src/day-twenty-one) |
 | 22  |               The lights in sync                  |       🟢       | [Solution](src/day-twenty-two) |
+| 23  |               Santa Claus Compiler                |       🔴       | [Solution](src/day-twenty-three) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
