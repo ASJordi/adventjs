@@ -1,4 +1,4 @@
-const getFilesToBackup = require('../src/day-thirteen/index.js');
+const getFilesToBackup = require('../../src/2022/day-thirteen/index.js');
 
 test("return type", () =>{
   let res = getFilesToBackup(1546300800, [

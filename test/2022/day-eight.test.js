@@ -1,4 +1,4 @@
-const checkPart = require('../src/day-eight/index.js');
+const checkPart = require('../../src/2022/day-eight/index.js');
 
 test("return type", () => {
   expect(typeof checkPart('uwu')).toBe('boolean');

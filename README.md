@@ -9,8 +9,8 @@
 
 <br />
 <div align="center">
-  <h3 align="center">AdventJS 2022 - @ASJordi</h3>
-  Personal solutions to the challenges of <a href="https://adventjs.dev/">Adventjs 2022</a>
+  <h3 align="center">AdventJS 2023 - @ASJordi</h3>
+  Personal solutions to the challenges of <a href="https://adventjs.dev/">Adventjs 2023</a>
   <p align="center">
     <a href="https://github.com/ASJordi/adventjs/blob/main/README.md"><strong>Explore the docs »</strong></a>
   </p>
@@ -39,8 +39,8 @@
 
 ## Challenges
 
-<details open>
-<summary>Show / Hide</summary>
+<details>
+<summary>2022</summary>
 
 |  #  |                  Name                             | Difficulty[^1] |                                       Solution                                  |
 | :-: | :-----------------------------------------------: | :------------: |  :--------------------------------------------------------------------------: |
@@ -110,15 +110,27 @@ You can run all tests with the following command:
 npm run test
 ```
 
+You can run all tests from a specific year with the following command:
+
+```sh
+npm run test:yyyy
+
+# Example
+npm run test:2022
+```
+
 You can run a specific test with the following command:
 
 ```sh
 npm run test:n
+
+# Example
+npm run test:1
 ```
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.  
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 

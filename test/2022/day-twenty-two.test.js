@@ -1,4 +1,4 @@
-const checkStepNumbers = require('../src/day-twenty-two/index.js');
+const checkStepNumbers = require('../../src/2022/day-twenty-two/index.js');
 
 test("return type", () => {
   let res = checkStepNumbers(["tree_1", "tree_1", "house"], [2, 1, 10]);

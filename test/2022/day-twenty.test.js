@@ -1,4 +1,4 @@
-const howManyReindeers = require("../src/day-twenty/index.js");
+const howManyReindeers = require("../../src/2022/day-twenty/index.js");
 
 test("return type", () => {
   let res = howManyReindeers(

@@ -1,4 +1,4 @@
-const fixLetter = require('../src/day-sixteen/index.js');
+const fixLetter = require('../../src/2022/day-sixteen/index.js');
 
 test("return type", () => {
   let res = fixLetter(` hello,  how are you??     do you know if santa claus exists?  i really hope he does!  bye  `);

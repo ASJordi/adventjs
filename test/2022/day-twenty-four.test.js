@@ -1,4 +1,4 @@
-const canExit = require("../src/day-twenty-four/index.js");
+const canExit = require("../../src/2022/day-twenty-four/index.js");
 
 test('return type', () => {
   let res = canExit([

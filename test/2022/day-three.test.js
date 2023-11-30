@@ -1,4 +1,4 @@
-const distributeGifts = require('../src/day-three/index.js');
+const distributeGifts = require('../../src/2022/day-three/index.js');
 
 test("return type", () => {
   const packOfGifts = ["book", "doll", "ball"];

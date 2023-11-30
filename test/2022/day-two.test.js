@@ -1,4 +1,4 @@
-const countHours = require('../src/day-two/index.js');
+const countHours = require('../../src/2022/day-two/index.js');
 
 test("return type", () => {
   const year = 2022;

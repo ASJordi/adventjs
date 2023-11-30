@@ -1,4 +1,4 @@
-const carryGifts = require('../src/day-seventeen/index.js');
+const carryGifts = require('../../src/2022/day-seventeen/index.js');
 
 test("return type", () =>{
   let res = carryGifts(['game', 'bike', 'book', 'toy'], 10);

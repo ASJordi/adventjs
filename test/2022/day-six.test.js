@@ -1,4 +1,4 @@
-const createCube = require('../src/day-six/index.js');
+const createCube = require('../../src/2022/day-six/index.js');
 
 test("return type", () => {
   let res = createCube(1);

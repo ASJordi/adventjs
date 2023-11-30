@@ -1,4 +1,4 @@
-const wrapping = require("../src/day-one/index.js");
+const wrapping = require("../../src/2022/day-one/index.js");
 
 test("return type", () =>{
   let gifts = ["tablet", "b", "c"];

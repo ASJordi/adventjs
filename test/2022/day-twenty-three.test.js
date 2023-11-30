@@ -1,4 +1,4 @@
-const executeCommands = require("../src/day-twenty-three/index.js");
+const executeCommands = require("../../src/2022/day-twenty-three/index.js");
 
 test("return type", () => {
   let res = executeCommands([

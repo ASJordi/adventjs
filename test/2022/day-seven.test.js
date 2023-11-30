@@ -1,4 +1,4 @@
-const getGiftsToRefill = require('../src/day-seven/index.js');
+const getGiftsToRefill = require('../../src/2022/day-seven/index.js');
 
 test("return type", () => {
   let res = getGiftsToRefill([], [], []);

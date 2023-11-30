@@ -1,4 +1,4 @@
-const sortToys = require("../src/day-nineteen/index.js");
+const sortToys = require("../../src/2022/day-nineteen/index.js");
 
 test("return type", () =>{
   let res = sortToys(['ball', 'doll', 'car', 'puzzle'], [2, 3, 1, 0]);

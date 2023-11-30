@@ -1,4 +1,4 @@
-const dryNumber = require("../src/day-eighteen/index.js");
+const dryNumber = require("../../src/2022/day-eighteen/index.js");
 
 test("return type", () =>{
   let res = dryNumber(1, 15);

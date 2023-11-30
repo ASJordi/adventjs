@@ -1,4 +1,4 @@
-const decorateTree = require('../src/day-fifteen/index.js');
+const decorateTree = require('../../src/2022/day-fifteen/index.js');
 
 test("return type", () =>{
   let res = decorateTree('B P R P');

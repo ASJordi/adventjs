@@ -1,4 +1,4 @@
-const countTime = require('../src/day-nine/index.js');
+const countTime = require('../../src/2022/day-nine/index.js');
 
 test("return type", () => {
   expect(typeof countTime([0, 1, 1, 0, 1])).toBe('number');

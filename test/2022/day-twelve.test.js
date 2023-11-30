@@ -1,4 +1,4 @@
-const selectSleigh = require('../src/day-twelve/index.js');
+const selectSleigh = require('../../src/2022/day-twelve/index.js');
 
 test('return type', () => {
   expect(typeof (selectSleigh(1, [{ name: 'pheralb', consumption: 0.3 },{ name: 'TMChein', consumption: 0.5 }])
@@ -17,7 +17,7 @@ test("selectSleigh()", () => {
   let res = selectSleigh(10, [
     { name: 'Pedrosillano', consumption: 1 },
     { name: 'SamarJaffal', consumption: 5 }
-  ]);  
+  ]);
   expect(res).toEqual('Pedrosillano');
 });
 
@@ -26,7 +26,7 @@ test("selectSleigh()", () => {
     { name: 'Pedrosillano', consumption: 1 },
     { name: 'SamarJaffal', consumption: 2 },
     { name: 'marcospage', consumption: 3 }
-  ]);  
+  ]);
   expect(res).toEqual('SamarJaffal');
 });
 
@@ -35,6 +35,6 @@ test("return null", () => {
     { name: 'Pedrosillano', consumption: 1 },
     { name: 'SamarJaffal', consumption: 2 },
     { name: 'marcospage', consumption: 3 }
-  ]);  
+  ]);
   expect(res).toEqual(null);
 });

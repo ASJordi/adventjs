@@ -1,4 +1,4 @@
-const getOptimalPath = require('../src/day-fourteen/index.js');
+const getOptimalPath = require('../../src/2022/day-fourteen/index.js');
 
 test("return type", () =>{
   let res = getOptimalPath([[0], [7, 4], [2, 4, 6]]);

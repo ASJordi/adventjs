@@ -1,4 +1,4 @@
-const printTable = require("../src/day-twenty-one/index.js");
+const printTable = require("../../src/2022/day-twenty-one/index.js");
 
 test("return type", () => {
   let res = printTable([{ name: 'Game', quantity: 10000 }]);
