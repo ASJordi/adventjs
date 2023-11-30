@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Personal solutions to the challenges of Adventjs 2022",
   "keywords": [
-    "adventjs", 
-    "midudev", 
+    "adventjs",
+    "midudev",
     "javascript"
   ],
   "author": "Jordi Ayala (@ASJordi)",
@@ -19,8 +19,8 @@
   "homepage": "https://github.com/ASJordi/adventjs#readme",
   "main": "index.js",
   "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.19.2"
+    "node": ">=18.0.0",
+    "npm": ">=10.2.4"
   },
   "type": "module",
   "scripts": {
@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "jest": "^29.3.1",
-    "nodemon": "^2.0.20"
+    "nodemon": "^3.0.1"
   },
   "dependencies": {
     "moment": "^2.29.4"
