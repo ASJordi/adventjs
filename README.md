@@ -35,12 +35,25 @@
   </ol>
 </details>
 
-<br/>
-
 ## Challenges
 
+### :christmas_tree: 2023
+
+<details open>
+  <summary>Show / Hide</summary>
+
+|  #  |                  Name                             | Difficulty[^1] |                     Solution                  |
+| :-: | :-----------------------------------------------: | :------------: |  :------------------------------------------: |
+| 01  |            ¡Primer regalo repetido!               |       🟢      | [Show](src/2023/day-one/)                      |
+
+[^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
+
+</details>
+
+### :santa: 2022
+
 <details>
-<summary>2022</summary>
+<summary>Show / Hide</summary>
 
 |  #  |                  Name                             | Difficulty[^1] |                                       Solution                                  |
 | :-: | :-----------------------------------------------: | :------------: |  :--------------------------------------------------------------------------: |
@@ -72,8 +85,6 @@
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
 </details>
-
-<br/>
 
 ## Getting Started
 
