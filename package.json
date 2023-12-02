@@ -29,7 +29,8 @@
     "test:watch": "npm run test -- --watch",
     "test:2022": "jest /2022",
     "test:2023": "jest /2023",
-    "test:1": "jest /2023/day-one.test.js"
+    "test:1": "jest /2023/day-one.test.js",
+    "test:2": "jest /2023/day-two.test.js"
   },
   "devDependencies": {
     "jest": "^29.3.1",
