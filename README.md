@@ -49,6 +49,7 @@
 | 03 |          😏 El elfo travieso          |       🟢      | [Show](src/2023/day-three) |
 | 04 | 😵‍💫 Dale la vuelta a los paréntesis |       🟠      | [Show](src/2023/day-four)  |
 | 05 |       🛷 El CyberTruck de Santa       |       🟠      | [Show](src/2023/day-five)  |
+| 06 |         🦌 Los renos a prueba         |       🟢      |  [Show](src/2023/day-six)  |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
