@@ -34,7 +34,8 @@
     "test:3": "jest /2023/day-three.test.js",
     "test:4": "jest /2023/day-four.test.js",
     "test:5": "jest /2023/day-five.test.js",
-    "test:6": "jest /2023/day-six.test.js"
+    "test:6": "jest /2023/day-six.test.js",
+    "test:7": "jest /2023/day-seven.test.js"
   },
   "devDependencies": {
     "jest": "^29.3.1",
