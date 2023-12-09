@@ -42,16 +42,17 @@
 <details open>
   <summary>Show / Hide</summary>
 
-| #  |                            Name                            | Difficulty[^1] |          Solution          |
-|:--:|:----------------------------------------------------------:| :------------: |:--------------------------:|
-| 01 |                  ¡Primer regalo repetido!                  |       🟢      | [Show](src/2023/day-one/)  |
-| 02 |              🏭 Ponemos en marcha la fábrica               |       🟢      | [Show](src/2023/day-two/)  |
-| 03 |                    😏 El elfo travieso                     |       🟢      | [Show](src/2023/day-three) |
-| 04 |           😵‍💫 Dale la vuelta a los paréntesis            |       🟠      | [Show](src/2023/day-four)  |
-| 05 |                 🛷 El CyberTruck de Santa                  |       🟠      | [Show](src/2023/day-five)  |
-| 06 |                   🦌 Los renos a prueba                    |       🟢      |  [Show](src/2023/day-six)  |
-| 07 |                     📦 Las cajas en 3D                     |       🟢      | [Show](src/2023/day-seven) |
-| 08 |                  🏬 Ordenando el almacén                   |       🟠      |     [Show](src/2023/day-eight)      |
+| #  |                         Name                         | Difficulty[^1] |          Solution          |
+|:--:|:----------------------------------------------------:| :------------: |:--------------------------:|
+| 01 |               ¡Primer regalo repetido!               |       🟢      | [Show](src/2023/day-one/)  |
+| 02 |           🏭 Ponemos en marcha la fábrica            |       🟢      | [Show](src/2023/day-two/)  |
+| 03 |                 😏 El elfo travieso                  |       🟢      | [Show](src/2023/day-three) |
+| 04 |        😵‍💫 Dale la vuelta a los paréntesis         |       🟠      | [Show](src/2023/day-four)  |
+| 05 |              🛷 El CyberTruck de Santa               |       🟠      | [Show](src/2023/day-five)  |
+| 06 |                🦌 Los renos a prueba                 |       🟢      |  [Show](src/2023/day-six)  |
+| 07 |                  📦 Las cajas en 3D                  |       🟢      | [Show](src/2023/day-seven) |
+| 08 |                  📦 Las cajas en 3D                  |       🟢      | [Show](src/2023/day-seven) |
+| 09 |                 🚦 Alterna las luces                 |       🟢      | [Show](src/2023/day-nine)  |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
