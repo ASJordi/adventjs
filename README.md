@@ -42,25 +42,26 @@
 <details open>
   <summary>Show / Hide</summary>
 
-| #  |                       Name                       | Difficulty[^1] |                       Solution               |
-|:--:|:------------------------------------------------:| :------------: |:--------------------------------------------:|
-| 01 |             ¡Primer regalo repetido!             |       🟢      |              [Show](src/2023/day-one/)       |
-| 02 |         🏭 Ponemos en marcha la fábrica          |       🟢      |              [Show](src/2023/day-two/)       |
-| 03 |               😏 El elfo travieso                |       🟢      |              [Show](src/2023/day-three)      |
-| 04 |      😵‍💫 Dale la vuelta a los paréntesis       |       🟠      |              [Show](src/2023/day-four)       |
-| 05 |            🛷 El CyberTruck de Santa             |       🟠      |              [Show](src/2023/day-five)       |
-| 06 |              🦌 Los renos a prueba               |       🟢      |               [Show](src/2023/day-six)       |
-| 07 |                📦 Las cajas en 3D                |       🟢      |              [Show](src/2023/day-seven)      |
-| 08 |                📦 Las cajas en 3D                |       🟢      |              [Show](src/2023/day-seven)      |
-| 09 |               🚦 Alterna las luces               |       🟢      |              [Show](src/2023/day-nine)       |
-| 10 |        🎄 Crea tu propio árbol de navidad        |       🟢      |               [Show](src/2023/day-ten)       |
-| 11 |             📖 Los elfos estudiosos              |       🟠      |             [Show](src/2023/day-eleven)      |
-| 12 |             📸 ¿Es una copia válida?             |       🟠      |             [Show](src/2023/day-twelve)      |
-| 13 |             ⌚️ Calculando el tiempo              |       🟢      |            [Show](src/2023/day-thirteen)     |
-| 14 |                🚨 Evita la alarma                |       🟠      |            [Show](src/2023/day-fourteen)     |
-| 15 |                ↔️ Robot autónomo                 |       🟠      |             [Show](src/2023/day-fifteen)     |
-| 16 |             ❌ Despliegue en viernes              |      🟢      |             [Show](src/2023/day-sixteen)         |
-| 17 |            🛷 Optimizando el alquiler            |      🟢      |             [Show](src/2023/day-seventeen)             |
+| #  |                 Name                  | Difficulty[^1] |                   Solution          |
+|:--:|:-------------------------------------:| :------------: |:-----------------------------------:|
+| 01 |       ¡Primer regalo repetido!        |       🟢      |           [Show](src/2023/day-one/) |
+| 02 |    🏭 Ponemos en marcha la fábrica    |       🟢      |           [Show](src/2023/day-two/) |
+| 03 |          😏 El elfo travieso          |       🟢      |          [Show](src/2023/day-three) |
+| 04 | 😵‍💫 Dale la vuelta a los paréntesis |       🟠      |           [Show](src/2023/day-four) |
+| 05 |       🛷 El CyberTruck de Santa       |       🟠      |           [Show](src/2023/day-five) |
+| 06 |         🦌 Los renos a prueba         |       🟢      |           [Show](src/2023/day-six)  |
+| 07 |          📦 Las cajas en 3D           |       🟢      |          [Show](src/2023/day-seven) |
+| 08 |          📦 Las cajas en 3D           |       🟢      |          [Show](src/2023/day-seven) |
+| 09 |         🚦 Alterna las luces          |       🟢      |           [Show](src/2023/day-nine) |
+| 10 |  🎄 Crea tu propio árbol de navidad   |       🟢      |           [Show](src/2023/day-ten)  |
+| 11 |        📖 Los elfos estudiosos        |       🟠      |          [Show](src/2023/day-eleven) |
+| 12 |       📸 ¿Es una copia válida?        |       🟠      |          [Show](src/2023/day-twelve) |
+| 13 |        ⌚️ Calculando el tiempo        |       🟢      |         [Show](src/2023/day-thirteen) |
+| 14 |          🚨 Evita la alarma           |       🟠      |         [Show](src/2023/day-fourteen) |
+| 15 |           ↔️ Robot autónomo           |       🟠      |         [Show](src/2023/day-fifteen) |
+| 16 |        ❌ Despliegue en viernes        |      🟢      |         [Show](src/2023/day-sixteen) |
+| 17 |      🛷 Optimizando el alquiler       |      🟢      |        [Show](src/2023/day-seventeen) |
+| 18 |        🔢 El reloj digital            |      🔴      |        [Show](src/2023/day-eighteen)|
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
