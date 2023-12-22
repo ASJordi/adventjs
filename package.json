@@ -48,7 +48,8 @@
     "test:17": "jest /2023/day-seventeen.test.js",
     "test:18": "jest /2023/day-eighteen.test.js",
     "test:19": "jest /2023/day-nineteen.test.js",
-    "test:20": "jest /2023/day-twenty.test.js"
+    "test:20": "jest /2023/day-twenty.test.js",
+    "test:21": "jest /2023/day-twenty-one.test.js"
   },
   "devDependencies": {
     "jest": "^29.3.1",
