@@ -67,6 +67,7 @@
 | 21 |                 🪐 Mensaje binario                  |     🟠         |  [Show](src/2023/day-twenty-one)  |
 | 22 |             🚂 Lenguaje de programación             |     🟢         |  [Show](src/2023/day-twenty-two)  |
 | 23 |              🍽️ La comida de Navidad               |     🟢         | [Show](src/2023/day-twenty-three) |
+| 24 |              🪜 Brincos en la escalera              |     🟠         | [Show](src/2023/day-twenty-four)  |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
