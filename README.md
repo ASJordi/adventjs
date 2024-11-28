@@ -9,8 +9,8 @@
 
 <br />
 <div align="center">
-  <h3 align="center">AdventJS 2023 - @ASJordi</h3>
-  Personal solutions to the challenges of <a href="https://adventjs.dev/">Adventjs 2023</a>
+  <h3 align="center">AdventJS 2024 - @ASJordi</h3>
+  Personal solutions to the challenges of <a href="https://adventjs.dev/">Adventjs 2024</a>
   <p align="center">
     <a href="https://github.com/ASJordi/adventjs/blob/main/README.md"><strong>Explore the docs »</strong></a>
   </p>
@@ -37,9 +37,22 @@
 
 ## Challenges
 
-### :christmas_tree: 2023
+### :snowman: 2024
 
 <details open>
+  <summary>Show / Hide</summary>
+
+| #  |      Name       | Difficulty[^1] |         Solution          |
+|:--:|:---------------:|:--------------:|:-------------------------:|
+| 01 | Actualizando... |       🟢       | [Show](src/2024/day-one/) |
+
+[^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
+
+</details>
+
+### :christmas_tree: 2023
+
+<details>
   <summary>Show / Hide</summary>
 
 | #  |                        Name                         | Difficulty[^1] |             Solution              |
@@ -151,7 +164,7 @@ You can run all tests from a specific year with the following command:
 npm run test:yyyy
 
 # Example
-npm run test:2022
+npm run test:2024
 ```
 
 You can run a specific test with the following command:
