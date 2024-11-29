@@ -1,4 +1,4 @@
-function howManyReindeers(reindeerTypes, gifts) {
+export function howManyReindeers(reindeerTypes, gifts) {
   reindeerTypes = reindeerTypes.sort(
     (x, y) => y.weightCapacity - x.weightCapacity
   );
@@ -25,5 +25,3 @@ function howManyReindeers(reindeerTypes, gifts) {
     return { country, reindeers };
   });
 }
-
-module.exports = howManyReindeers;

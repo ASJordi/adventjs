@@ -1,5 +1,5 @@
-const manufacture = require('../../src/2023/day-two/index.js')
-const dryNumber = require("../../src/2022/day-eighteen/index.js");
+import { expect, test } from 'vitest';
+import { manufacture } from "../../src/2023/day-two/index.js";
 
 test('Test #01 - Returns an array', () => {
     const gifts = ['tren', 'oso', 'pelota']

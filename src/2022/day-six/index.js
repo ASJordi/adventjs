@@ -1,4 +1,4 @@
-function createCube(size) {
+export function createCube(size) {
   let head = []
   let tail = []
   for(let i = 1; i <= size; i++) {
@@ -7,5 +7,3 @@ function createCube(size) {
   }
   return [...head, ...tail].join("\n")
 }
-
-module.exports = createCube;

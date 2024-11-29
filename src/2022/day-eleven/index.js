@@ -1,4 +1,4 @@
-function getCompleted(part, total) {
+export function getCompleted(part, total) {
 
   let partToArray = part.split(':');
   let totalToArray = total.split(':');
@@ -40,5 +40,3 @@ function getCompleted(part, total) {
 
   return res;
 }
-
-module.exports = getCompleted;

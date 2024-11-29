@@ -1,4 +1,4 @@
-function drawClock(time) {
+export function drawClock(time) {
     const clock = [[], [], [], [], [], [], []]
 
     const nums = {
@@ -115,5 +115,3 @@ function drawClock(time) {
 
     return clock
 }
-
-module.exports = drawClock;

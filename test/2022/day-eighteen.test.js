@@ -1,4 +1,5 @@
-const dryNumber = require("../../src/2022/day-eighteen/index.js");
+import { expect, test } from 'vitest';
+import { dryNumber} from "../../src/2022/day-eighteen/index.js";
 
 test("return type", () =>{
   let res = dryNumber(1, 15);

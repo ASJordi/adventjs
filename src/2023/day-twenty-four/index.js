@@ -1,4 +1,4 @@
-function getStaircasePaths(steps, maxJump) {
+export function getStaircasePaths(steps, maxJump) {
     if (steps === 0) return [[]];
 
     let result = [];
@@ -12,5 +12,3 @@ function getStaircasePaths(steps, maxJump) {
 
     return result;
 }
-
-module.exports = getStaircasePaths;

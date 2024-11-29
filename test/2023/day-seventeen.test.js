@@ -1,4 +1,5 @@
-const optimizeIntervals = require('../../src/2023/day-seventeen/index.js')
+import { expect, test } from 'vitest';
+import { optimizeIntervals } from "../../src/2023/day-seventeen/index.js";
 
 test('Test #01 - Returns an array', () => {
     let res = optimizeIntervals([])

@@ -1,4 +1,5 @@
-const drawClock = require('../../src/2023/day-eighteen/index.js')
+import { expect, test } from 'vitest';
+import { drawClock } from "../../src/2023/day-eighteen/index.js";
 
 test('Test #01 - Returns an array', () => {
     let res = drawClock('01:30')

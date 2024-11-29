@@ -1,4 +1,4 @@
-function fitsInOneBox(boxes) {
+export function fitsInOneBox(boxes) {
   return boxes.sort((a, b) => {
     return (a.l + a.w + a.h) - (b.l + b.w + b.h)
   }).every((box, i) => { 
@@ -7,5 +7,3 @@ function fitsInOneBox(boxes) {
     return box.l > prev.l && box.w > prev.w && box.h > prev.h 
   });
 }
-
-module.exports = fitsInOneBox;

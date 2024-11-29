@@ -1,4 +1,5 @@
-const checkPart = require('../../src/2022/day-eight/index.js');
+import { expect, test } from 'vitest';
+import { checkPart} from "../../src/2022/day-eight/index.js";
 
 test("return type", () => {
   expect(typeof checkPart('uwu')).toBe('boolean');

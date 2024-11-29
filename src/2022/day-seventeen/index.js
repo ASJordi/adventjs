@@ -1,4 +1,4 @@
-function carryGifts(gifts, maxWeight) {
+export function carryGifts(gifts, maxWeight) {
   if (Math.max(...gifts.map(gift => gift.length)) > maxWeight) {
     return [];
   }
@@ -24,5 +24,3 @@ function carryGifts(gifts, maxWeight) {
 
   return bags;
 }
-
-module.exports = carryGifts;

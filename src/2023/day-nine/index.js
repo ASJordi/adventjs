@@ -1,4 +1,4 @@
-function adjustLights(lights) {
+export function adjustLights(lights) {
     let s = "";
     let r = 0;
 
@@ -9,5 +9,3 @@ function adjustLights(lights) {
 
     return r;
 }
-
-module.exports = adjustLights;

@@ -1,4 +1,5 @@
-const drawGift = require('../../src/2023/day-seven/index.js');
+import { expect, test } from 'vitest';
+import { drawGift } from "../../src/2023/day-seven/index.js";
 
 test('Test #01 - Return a String', () => {
     expect(typeof drawGift(4, '+')).toBe('string');

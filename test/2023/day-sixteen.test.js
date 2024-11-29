@@ -1,4 +1,5 @@
-const transformTree = require('../../src/2023/day-sixteen/index.js')
+import { expect, test } from 'vitest';
+import { transformTree } from "../../src/2023/day-sixteen/index.js";
 
 test('Test #01 - Returns an object', () => {
     expect(typeof transformTree([])).toBe('object')

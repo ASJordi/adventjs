@@ -1,4 +1,4 @@
-function manufacture(gifts, materials) {
+export function manufacture(gifts, materials) {
     const m = materials.split("")
 
     return gifts.filter(g => {
@@ -7,5 +7,3 @@ function manufacture(gifts, materials) {
         return x.length === m.length
     })
 }
-
-module.exports = manufacture;

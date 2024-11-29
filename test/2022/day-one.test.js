@@ -1,4 +1,5 @@
-const wrapping = require("../../src/2022/day-one/index.js");
+import { expect, test } from 'vitest';
+import { wrapping } from "../../src/2022/day-one/index.js";
 
 test("return type", () =>{
   let gifts = ["tablet", "b", "c"];

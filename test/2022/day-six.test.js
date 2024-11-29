@@ -1,4 +1,5 @@
-const createCube = require('../../src/2022/day-six/index.js');
+import { expect, test } from 'vitest';
+import { createCube } from "../../src/2022/day-six/index.js";
 
 test("return type", () => {
   let res = createCube(1);

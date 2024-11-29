@@ -1,4 +1,4 @@
-function checkIsValidCopy(original, copy) {
+export function checkIsValidCopy(original, copy) {
     for (let i = 0; i < original.length; i++) {
         const letter = original[i];
         const copyLetter = copy[i];
@@ -10,5 +10,3 @@ function checkIsValidCopy(original, copy) {
 
     return true;
 }
-
-module.exports = checkIsValidCopy

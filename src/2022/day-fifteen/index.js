@@ -1,4 +1,4 @@
-function decorateTree(base) {
+export function decorateTree(base) {
 
   const tree = base.split(" ");
   
@@ -24,5 +24,3 @@ function decorateTree(base) {
     .reverse()
     .map((el) => el.join(" "));
 }
-
-module.exports = decorateTree;

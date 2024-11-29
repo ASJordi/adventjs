@@ -1,4 +1,4 @@
-function countTime(leds) {
+export function countTime(leds) {
   const ledString = leds.join('');
   const ledRowsOff = ledString.split('1');
   ledRowsOff[0] += ledRowsOff.pop();
@@ -6,5 +6,3 @@ function countTime(leds) {
     return Math.max(maxTime, rowOff.length * 7);
   }, 0);
 }
-
-module.exports = countTime

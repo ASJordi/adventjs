@@ -1,4 +1,4 @@
-function cyberReindeer(road, time){
+export function cyberReindeer(road, time){
     let moves = [road]
     let a = 0
     let b = "."
@@ -16,5 +16,3 @@ function cyberReindeer(road, time){
 
     return moves
 }
-
-module.exports = cyberReindeer

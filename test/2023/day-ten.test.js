@@ -1,4 +1,5 @@
-const createChristmasTree = require('../../src/2023/day-ten/index.js')
+import { expect, test } from 'vitest';
+import { createChristmasTree } from "../../src/2023/day-ten/index.js";
 
 test('Test #01 - Return a string', () => {
     expect(typeof createChristmasTree("x", 3)).toBe('string')

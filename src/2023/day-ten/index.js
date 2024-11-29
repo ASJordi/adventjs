@@ -1,4 +1,4 @@
-function createChristmasTree(ornaments, height) {
+export function createChristmasTree(ornaments, height) {
     let tree = ""
     let pos = 0
     let row = null
@@ -15,5 +15,3 @@ function createChristmasTree(ornaments, height) {
 
     return tree
 }
-
-module.exports = createChristmasTree

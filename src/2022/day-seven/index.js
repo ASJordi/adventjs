@@ -1,4 +1,4 @@
-function getGiftsToRefill(a1, a2, a3) {
+export function getGiftsToRefill(a1, a2, a3) {
   return [
     ...new Set([...a1, ...a2, ...a3])]
       .filter(gift => 
@@ -8,5 +8,3 @@ function getGiftsToRefill(a1, a2, a3) {
         === 1
     )
 }
-
-module.exports = getGiftsToRefill

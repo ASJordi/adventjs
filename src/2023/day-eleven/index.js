@@ -1,4 +1,4 @@
-function getIndexsForPalindrome(word) {
+export function getIndexsForPalindrome(word) {
     let res = null
     for (const a of Array.from({ length: word.length }).keys()) {
         for (const b of Array.from({ length: word.length }).keys()) {
@@ -24,5 +24,3 @@ function getIndexsForPalindrome(word) {
     }
     return res
 }
-
-module.exports = getIndexsForPalindrome;

@@ -1,4 +1,4 @@
-function travelDistance(map) {
+export function travelDistance(map) {
     const mapArr = map.split('\n')
     const road = mapArr.join('')
     const cols = mapArr[0].length
@@ -26,5 +26,3 @@ function travelDistance(map) {
 
     return movs
 }
-
-module.exports = travelDistance

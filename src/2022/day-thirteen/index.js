@@ -1,4 +1,4 @@
-function getFilesToBackup(lastBackup, changes) {
+export function getFilesToBackup(lastBackup, changes) {
 
   let filterFiles = changes.filter(x => x[1] > lastBackup);
   let filesId = filterFiles.map(x => x[0]);
@@ -6,5 +6,3 @@ function getFilesToBackup(lastBackup, changes) {
 
   return [...new Set(sortedFiles)];
 }
-
-module.exports = getFilesToBackup;

@@ -1,4 +1,5 @@
-const getFilesToBackup = require('../../src/2022/day-thirteen/index.js');
+import { expect, test } from 'vitest';
+import { getFilesToBackup } from "../../src/2022/day-thirteen/index.js";
 
 test("return type", () =>{
   let res = getFilesToBackup(1546300800, [

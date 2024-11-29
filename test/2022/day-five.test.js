@@ -1,4 +1,5 @@
-const getMaxGifts = require('../../src/2022/day-five/index.js');
+import { expect, test } from 'vitest';
+import { getMaxGifts } from "../../src/2022/day-five/index.js";
 
 test("return type", () => {
   const giftsCities = [12, 3, 11, 5, 7]

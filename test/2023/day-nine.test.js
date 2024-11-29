@@ -1,4 +1,5 @@
-const adjustLights = require('../../src/2023/day-nine')
+import { expect, test } from 'vitest';
+import { adjustLights } from "../../src/2023/day-nine/index.js";
 
 test('Test #01 - Return a number', () => {
     expect(typeof adjustLights(['🟢', '🔴', '🟢', '🟢', '🟢'])).toBe('number')

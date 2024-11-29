@@ -1,4 +1,4 @@
-function decode(message){
+export function decode(message){
     while (message.includes('(')) {
         const start = message.lastIndexOf('(');
         const end = message.indexOf(')', start);
@@ -10,5 +10,3 @@ function decode(message){
 
     return message;
 }
-
-module.exports = decode

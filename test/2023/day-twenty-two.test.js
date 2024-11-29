@@ -1,4 +1,5 @@
-const compile = require('../../src/2023/day-twenty-two/index.js')
+import { expect, test } from 'vitest';
+import { compile } from "../../src/2023/day-twenty-two/index.js";
 
 test('Test #01 - Returns a number', () => {
     expect(typeof compile('++*-')).toBe('number')

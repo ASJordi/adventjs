@@ -1,4 +1,5 @@
-const autonomousDrive = require('../../src/2023/day-fifteen/index.js')
+import { expect, test } from 'vitest';
+import { autonomousDrive } from "../../src/2023/day-fifteen/index.js";
 
 test('Test #01 - Returns an array', () => {
     const store = ['..!....', '...*.*.']

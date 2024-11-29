@@ -1,4 +1,4 @@
-function sortToys(toys, positions) {
+export function sortToys(toys, positions) {
 
   let sortedToys = toys.map((name, index) => ({
     name: name,
@@ -9,5 +9,3 @@ function sortToys(toys, positions) {
 
   return [...sortedToys.map(obj => obj.name)];
 }
-
-module.exports = sortToys;

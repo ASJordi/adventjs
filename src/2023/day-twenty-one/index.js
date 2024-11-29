@@ -1,4 +1,4 @@
-function findBalancedSegment(message) {
+export function findBalancedSegment(message) {
     let count = 0;
     let start = 0;
     let end = -1;
@@ -23,5 +23,3 @@ function findBalancedSegment(message) {
 
     return end >= start ? [start, end] : [];
 }
-
-module.exports = findBalancedSegment;

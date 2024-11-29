@@ -1,4 +1,5 @@
-const fitsInOneBox = require('../../src/2022/day-four/index.js');
+import { expect, test } from 'vitest';
+import { fitsInOneBox } from "../../src/2022/day-four/index.js";
 
 test("return type", () => {
   let res = fitsInOneBox([{ l: 1, w: 1, h: 1 }, { l: 2, w: 2, h: 2 }]);

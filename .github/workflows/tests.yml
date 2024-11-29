@@ -26,4 +26,4 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm run test:2024
+        run: npm run test:2023

@@ -1,4 +1,5 @@
-const howManyReindeers = require("../../src/2022/day-twenty/index.js");
+import { expect, test } from 'vitest';
+import { howManyReindeers } from "../../src/2022/day-twenty/index.js";
 
 test("return type", () => {
   let res = howManyReindeers(

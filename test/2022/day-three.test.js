@@ -1,4 +1,5 @@
-const distributeGifts = require('../../src/2022/day-three/index.js');
+import { expect, test } from 'vitest';
+import { distributeGifts } from "../../src/2022/day-three/index.js";
 
 test("return type", () => {
   const packOfGifts = ["book", "doll", "ball"];

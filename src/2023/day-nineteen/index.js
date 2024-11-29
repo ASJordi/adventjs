@@ -1,4 +1,4 @@
-function revealSabotage(store) {
+export function revealSabotage(store) {
     store.forEach((row, i) => {
         row.forEach((col, j) => {
             if (col !== '*') {
@@ -22,5 +22,3 @@ function revealSabotage(store) {
 
     return store;
 }
-
-module.exports = revealSabotage;

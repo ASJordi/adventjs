@@ -1,4 +1,5 @@
-const canExit = require("../../src/2022/day-twenty-four/index.js");
+import { expect, test } from 'vitest';
+import { canExit } from "../../src/2022/day-twenty-four/index.js";
 
 test('return type', () => {
   let res = canExit([

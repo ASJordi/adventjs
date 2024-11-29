@@ -1,4 +1,5 @@
-const decode = require('../../src/2023/day-four/index.js')
+import { expect, test } from 'vitest';
+import { decode } from "../../src/2023/day-four/index.js";
 
 test('Test #01 - Returns a String', () => {
     expect(

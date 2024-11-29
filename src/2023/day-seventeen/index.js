@@ -1,4 +1,4 @@
-function optimizeIntervals(intervals) {
+export function optimizeIntervals(intervals) {
     intervals.sort((a, b) => a[0] - b[0]);
 
     let m = [];
@@ -9,5 +9,3 @@ function optimizeIntervals(intervals) {
 
     return m;
 }
-
-module.exports = optimizeIntervals;

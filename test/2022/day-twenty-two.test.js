@@ -1,4 +1,5 @@
-const checkStepNumbers = require('../../src/2022/day-twenty-two/index.js');
+import { expect, test } from 'vitest';
+import { checkStepNumbers } from "../../src/2022/day-twenty-two/index.js";
 
 test("return type", () => {
   let res = checkStepNumbers(["tree_1", "tree_1", "house"], [2, 1, 10]);

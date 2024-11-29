@@ -1,4 +1,5 @@
-const calculateTime = require('../../src/2023/day-thirteen/index.js')
+import { expect, test } from 'vitest';
+import { calculateTime } from "../../src/2023/day-thirteen/index.js";
 
 test('Test #01 - Return a String', () => {
     expect(typeof calculateTime(['00:10:00', '01:00:00', '03:30:00'])).toBe('string')

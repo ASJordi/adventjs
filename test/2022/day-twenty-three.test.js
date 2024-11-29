@@ -1,4 +1,5 @@
-const executeCommands = require("../../src/2022/day-twenty-three/index.js");
+import { expect, test } from 'vitest';
+import { executeCommands } from "../../src/2022/day-twenty-three/index.js";
 
 test("return type", () => {
   let res = executeCommands([

@@ -1,4 +1,4 @@
-function organizeChristmasDinner(dishes) {
+export function organizeChristmasDinner(dishes) {
     const map = {};
 
     for (const dish of dishes) {
@@ -17,5 +17,3 @@ function organizeChristmasDinner(dishes) {
 
     return res;
 }
-
-module.exports = organizeChristmasDinner;

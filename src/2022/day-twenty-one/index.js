@@ -1,4 +1,4 @@
-function printTable(gifts) {
+export function printTable(gifts) {
   let quantityLength = Math.max(
     ...gifts.map((x) => (x.quantity + '').length),
     'Quantity'.length
@@ -27,5 +27,3 @@ function printTable(gifts) {
 
   return result;
 }
-
-module.exports = printTable;

@@ -1,4 +1,5 @@
-const findFirstRepeated = require('../../src/2023/day-one/index.js');
+import { expect, test } from 'vitest';
+import { findFirstRepeated } from "../../src/2023/day-one/index.js";
 
 test('Test #01 - Returns a Number', () => {
   expect(

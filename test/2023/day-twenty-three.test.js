@@ -1,4 +1,5 @@
-const organizeChristmasDinner = require('../../src/2023/day-twenty-three/index.js')
+import { expect, test } from 'vitest';
+import { organizeChristmasDinner } from "../../src/2023/day-twenty-three/index.js";
 
 test('Test #01 - Returns an array', () => {
     const dishes = [

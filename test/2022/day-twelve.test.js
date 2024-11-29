@@ -1,4 +1,5 @@
-const selectSleigh = require('../../src/2022/day-twelve/index.js');
+import { expect, test } from 'vitest';
+import { selectSleigh } from "../../src/2022/day-twelve/index.js";
 
 test('return type', () => {
   expect(typeof (selectSleigh(1, [{ name: 'pheralb', consumption: 0.3 },{ name: 'TMChein', consumption: 0.5 }])

@@ -1,4 +1,5 @@
-const countHours = require('../../src/2022/day-two/index.js');
+import { expect, test } from 'vitest';
+import { countHours} from "../../src/2022/day-two/index.js";
 
 test("return type", () => {
   const year = 2022;

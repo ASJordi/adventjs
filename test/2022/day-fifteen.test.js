@@ -1,4 +1,5 @@
-const decorateTree = require('../../src/2022/day-fifteen/index.js');
+import { expect, test } from 'vitest';
+import { decorateTree } from "../../src/2022/day-fifteen/index.js";
 
 test("return type", () =>{
   let res = decorateTree('B P R P');

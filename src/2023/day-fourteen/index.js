@@ -1,4 +1,4 @@
-function maxGifts(houses) {
+export function maxGifts(houses) {
     let dp = new Array(houses.length);
     dp[0] = houses[0];
     dp[1] = Math.max(houses[0], houses[1]);
@@ -9,5 +9,3 @@ function maxGifts(houses) {
 
     return dp[houses.length - 1];
 }
-
-module.exports = maxGifts

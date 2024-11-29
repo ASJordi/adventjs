@@ -1,4 +1,4 @@
-function drawGift(size, symbol) {
+export function drawGift(size, symbol) {
     const endLine = "#\n";
     if (size <= 1) return endLine;
     const p = "#";
@@ -29,5 +29,3 @@ function drawGift(size, symbol) {
     }
     return g;
 }
-
-module.exports = drawGift;

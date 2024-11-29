@@ -1,4 +1,4 @@
-function transformTree(tree) {
+export function transformTree(tree) {
     if (!tree.length) return null;
 
     const rootTree = [];
@@ -23,5 +23,3 @@ function transformTree(tree) {
 
     return rootTree[0];
 }
-
-module.exports = transformTree;

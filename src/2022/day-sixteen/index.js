@@ -1,4 +1,4 @@
-function fixLetter(letter) {
+export function fixLetter(letter) {
   let output = letter
     .replace(/([,.?!])([^,.?!])/g, '$1 $2')
     .replace(/\s+/g, ' ')
@@ -13,5 +13,3 @@ function fixLetter(letter) {
 
   return output;
 }
-
-module.exports = fixLetter;

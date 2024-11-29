@@ -1,4 +1,4 @@
-function distributeGifts(weights) {
+export function distributeGifts(weights) {
     const r = weights.length;
     const c = weights[0].length;
     const res = Array.from({ length: r }, () => Array(c).fill(0));
@@ -39,5 +39,3 @@ function distributeGifts(weights) {
 
     return res;
 }
-
-module.exports = distributeGifts;

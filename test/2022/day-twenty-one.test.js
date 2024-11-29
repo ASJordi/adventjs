@@ -1,4 +1,5 @@
-const printTable = require("../../src/2022/day-twenty-one/index.js");
+import { expect, test } from 'vitest';
+import { printTable } from "../../src/2022/day-twenty-one/index.js";
 
 test("return type", () => {
   let res = printTable([{ name: 'Game', quantity: 10000 }]);

@@ -1,4 +1,5 @@
-const checkJump = require('../../src/2022/day-ten/index.js');
+import { expect, test } from 'vitest';
+import { checkJump } from "../../src/2022/day-ten/index.js";
 
 test('return type', () => {
   expect(typeof (checkJump([1, 2, 1]))).toBe("boolean")

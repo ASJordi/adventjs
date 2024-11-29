@@ -1,4 +1,5 @@
-const carryGifts = require('../../src/2022/day-seventeen/index.js');
+import { expect, test } from 'vitest';
+import { carryGifts } from "../../src/2022/day-seventeen/index.js";
 
 test("return type", () =>{
   let res = carryGifts(['game', 'bike', 'book', 'toy'], 10);

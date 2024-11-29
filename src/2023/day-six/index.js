@@ -1,4 +1,4 @@
-function maxDistance(movements) {
+export function maxDistance(movements) {
     let d = 0
 
     let r = movements.match(/>/g)?.length ?? 0
@@ -11,5 +11,3 @@ function maxDistance(movements) {
 
     return Math.abs(d) + extra
 }
-
-module.exports = maxDistance

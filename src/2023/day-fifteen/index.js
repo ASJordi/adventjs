@@ -1,4 +1,4 @@
-function autonomousDrive (store, movements) {
+export function autonomousDrive (store, movements) {
     let row = store.findIndex(_ => _.includes('!'))
     let col = store[row].indexOf('!')
     store[row] = store[row].replace('!', '.')
@@ -14,5 +14,3 @@ function autonomousDrive (store, movements) {
     store[row] = str.substring(0, col) + '!' + str.substring(col + 1)
     return store
 }
-
-module.exports = autonomousDrive;

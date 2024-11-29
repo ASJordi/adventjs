@@ -1,4 +1,5 @@
-const findBalancedSegment = require('../../src/2023/day-twenty-one/index.js')
+import { expect, test } from 'vitest';
+import { findBalancedSegment } from "../../src/2023/day-twenty-one/index.js";
 
 test('Test #01 - Returns an array', () => {
     expect(findBalancedSegment([1, 1, 0, 1, 1, 0, 1, 1]) instanceof Array).toBe(true)

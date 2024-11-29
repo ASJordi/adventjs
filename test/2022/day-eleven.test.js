@@ -1,4 +1,5 @@
-const getCompleted = require('../../src/2022/day-eleven/index.js');
+import { expect, test } from 'vitest';
+import { getCompleted } from "../../src/2022/day-eleven/index.js";
 
 test('return type', () => {
   expect(typeof (getCompleted('01:00:00', '03:00:00'))).toBe("string")

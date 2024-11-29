@@ -1,4 +1,5 @@
-const findNaughtyStep = require('../../src/2023/day-three/index.js')
+import { expect, test } from 'vitest';
+import { findNaughtyStep } from "../../src/2023/day-three/index.js";
 
 test('Test #01 - Returns a String', () => {
     expect(

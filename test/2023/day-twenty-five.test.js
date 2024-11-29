@@ -1,4 +1,5 @@
-const travelDistance = require('../../src/2023/day-twenty-five/index.js')
+import { expect, test } from 'vitest';
+import { travelDistance } from "../../src/2023/day-twenty-five/index.js";
 
 test('Test #01 - Returns a number', () => {
     expect(typeof travelDistance(`S1`)).toBe('number')

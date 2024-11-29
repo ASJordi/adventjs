@@ -1,4 +1,5 @@
-const getIndexsForPalindrome = require('../../src/2023/day-eleven/index.js');
+import { expect, test } from 'vitest';
+import { getIndexsForPalindrome } from "../../src/2023/day-eleven/index.js";
 
 test('Test #01 - getIndexsForPalindrome(\'anna\')', () => {
     expect(getIndexsForPalindrome('anna')).toStrictEqual([])

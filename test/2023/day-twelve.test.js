@@ -1,4 +1,5 @@
-const checkIsValidCopy = require('../../src/2023/day-twelve/index.js')
+import { expect, test } from 'vitest';
+import { checkIsValidCopy } from "../../src/2023/day-twelve/index.js";
 
 test('Test #01 - Return a boolean', () => {
     expect(typeof checkIsValidCopy(

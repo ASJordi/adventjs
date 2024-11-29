@@ -1,4 +1,5 @@
-const organizeGifts = require('../../src/2023/day-eight/index.js')
+import { expect, test } from 'vitest';
+import { organizeGifts } from '../../src/2023/day-eight/index.js';
 
 test('Test #01 - Return a String', () => {
     expect(typeof organizeGifts(`76a11b`)).toBe('string');

@@ -1,4 +1,5 @@
-const getStaircasePaths = require('../../src/2023/day-twenty-four/index.js')
+import { expect, test } from 'vitest';
+import { getStaircasePaths } from "../../src/2023/day-twenty-four/index.js";
 
 test('Test #01 - Returns an array', () => {
     expect(getStaircasePaths(2, 1) instanceof Array).toBe(true)

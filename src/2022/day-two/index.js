@@ -1,4 +1,4 @@
-function countHours(year, holidays){
+export function countHours(year, holidays){
   let hours = 0;
   holidays.forEach(holiday => {
     const date = new Date(`${holiday}/${year}`);
@@ -9,5 +9,3 @@ function countHours(year, holidays){
   });
   return hours;
 }
-
-module.exports = countHours;

@@ -1,4 +1,5 @@
-const countTime = require('../../src/2022/day-nine/index.js');
+import { expect, test } from 'vitest';
+import { countTime } from "../../src/2022/day-nine/index.js";
 
 test("return type", () => {
   expect(typeof countTime([0, 1, 1, 0, 1])).toBe('number');

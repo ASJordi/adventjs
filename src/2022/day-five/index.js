@@ -1,4 +1,4 @@
-function getMaxGifts(giftsCities, maxGifts, maxCities) {
+export function getMaxGifts(giftsCities, maxGifts, maxCities) {
   return Math.max(
     ...giftsCities
       .reduce(
@@ -15,5 +15,3 @@ function getMaxGifts(giftsCities, maxGifts, maxCities) {
       .map((solution) => solution.reduce((acc, b) => acc + b, 0))
   );
 }
-
-module.exports = getMaxGifts;

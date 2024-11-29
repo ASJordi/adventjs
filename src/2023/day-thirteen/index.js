@@ -1,4 +1,4 @@
-function calculateTime(deliveries) {
+export function calculateTime(deliveries) {
     let t = -(7 * 3600)
 
     for (const delivery of deliveries) {
@@ -25,5 +25,3 @@ function calculateTime(deliveries) {
 
     return `${sign}${h}:${m}:${s}`
 }
-
-module.exports = calculateTime;

@@ -1,4 +1,5 @@
-const maxGifts = require('../../src/2023/day-fourteen/index.js')
+import { expect, test } from 'vitest';
+import { maxGifts } from "../../src/2023/day-fourteen/index.js";
 
 test('Test #01 - Return a number', () => {
     expect(typeof maxGifts([2, 4, 2])).toBe('number')

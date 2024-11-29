@@ -1,4 +1,5 @@
-const distributeGifts = require('../../src/2023/day-twenty/index.js')
+import { expect, test } from 'vitest';
+import { distributeGifts } from "../../src/2023/day-twenty/index.js";
 
 test('Test #01 - Returns an array', () => {
     expect(distributeGifts(

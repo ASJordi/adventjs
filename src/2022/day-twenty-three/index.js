@@ -1,4 +1,4 @@
-function executeCommands(commands) {
+export function executeCommands(commands) {
 
   let reg = [0, 0, 0, 0, 0, 0, 0, 0];
 
@@ -33,5 +33,3 @@ function executeCommands(commands) {
 
   return reg;
 }
-
-module.exports = executeCommands;

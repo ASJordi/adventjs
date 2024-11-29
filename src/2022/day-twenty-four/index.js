@@ -1,4 +1,4 @@
-function canExit(maze) {
+export function canExit(maze) {
   
   let start = [];
   let end = [];
@@ -37,5 +37,3 @@ function canExit(maze) {
   }
   return false;
 }
-
-module.exports = canExit;

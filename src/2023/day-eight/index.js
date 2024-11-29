@@ -1,4 +1,4 @@
-function organizeGifts(gifts) {
+export function organizeGifts(gifts) {
     const countGifts = gifts.match(/\d+/g).map(Number);
     const nameGifts = gifts.match(/\D/g);
 
@@ -17,5 +17,3 @@ function organizeGifts(gifts) {
         return result;
     }).join('');
 }
-
-module.exports = organizeGifts;

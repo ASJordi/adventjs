@@ -1,4 +1,4 @@
-function compile(code) {
+export function compile(code) {
     let counter = 0;
     let stack = -1;
 
@@ -30,5 +30,3 @@ function compile(code) {
 
     return counter;
 }
-
-module.exports = compile;

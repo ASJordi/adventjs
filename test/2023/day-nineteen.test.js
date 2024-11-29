@@ -1,4 +1,5 @@
-const revealSabotage = require('../../src/2023/day-nineteen/index.js')
+import { expect, test } from 'vitest';
+import { revealSabotage } from "../../src/2023/day-nineteen/index.js";
 
 test('Test #01 - Returns an array', () => {
     expect(revealSabotage(

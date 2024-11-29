@@ -1,4 +1,5 @@
-const getGiftsToRefill = require('../../src/2022/day-seven/index.js');
+import { expect, test } from 'vitest';
+import { getGiftsToRefill } from "../../src/2022/day-seven/index.js";
 
 test("return type", () => {
   let res = getGiftsToRefill([], [], []);

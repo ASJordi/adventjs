@@ -1,4 +1,5 @@
-const cyberReindeer = require('../../src/2023/day-five/index.js')
+import { expect, test } from 'vitest';
+import { cyberReindeer } from "../../src/2023/day-five/index.js";
 
 test('Test #01 - Returns an array', () => {
     const road = 'S..|...|..'
