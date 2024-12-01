@@ -9,7 +9,7 @@
 
 <br />
 <div align="center">
-  <h3 align="center">AdventJS 2024 - @ASJordi</h3>
+  <h3 align="center">AdventJS 2024</h3>
   Personal solutions to the challenges of <a href="https://adventjs.dev/">Adventjs 2024</a>
   <p align="center">
     <a href="https://github.com/ASJordi/adventjs/blob/main/README.md"><strong>Explore the docs »</strong></a>
@@ -42,11 +42,11 @@
 <details open>
   <summary>Show / Hide</summary>
 
-| #  |      Name       | Difficulty[^1] |         Solution          |
-|:--:|:---------------:|:--------------:|:-------------------------:|
-| 01 | Actualizando... |       🟢       | [Show](src/2024/day-one/) |
+| #  |            Name            | Difficulty |        Solution         | Score |
+|:--:|:--------------------------:|:----------:|:-----------------------:|:-----:|
+| 01 |🎁 ¡Primer regalo repetido! |     🟢     |[Show](src/2024/day-one/)| ⭐⭐⭐⭐⭐ |
 
-[^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
+**Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
 </details>
 

@@ -31,4 +31,4 @@ jobs:
         run: pnpm install
 
       - name: Run tests
-        run: pnpm run test:2023
+        run: pnpm run test:2024
