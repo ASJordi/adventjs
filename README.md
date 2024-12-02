@@ -42,9 +42,10 @@
 <details open>
   <summary>Show / Hide</summary>
 
-| #  |            Name            | Difficulty |        Solution         | Score |
-|:--:|:--------------------------:|:----------:|:-----------------------:|:-----:|
-| 01 |🎁 ¡Primer regalo repetido! |     🟢     |[Show](src/2024/day-one/)| ⭐⭐⭐⭐⭐ |
+| #  |            Name            | Difficulty |         Solution          | Score |
+|:--:|:--------------------------:|:----------:|:-------------------------:|:-----:|
+| 01 |🎁 ¡Primer regalo repetido! |     🟢     | [Show](src/2024/day-one/) | ⭐⭐⭐⭐⭐ |
+| 02 |🖼️ Enmarcando nombres |     🟢     | [Show](src/2024/day-two/) | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
