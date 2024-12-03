@@ -42,10 +42,11 @@
 <details open>
   <summary>Show / Hide</summary>
 
-| #  |            Name            | Difficulty |         Solution          | Score |
-|:--:|:--------------------------:|:----------:|:-------------------------:|:-----:|
-| 01 |🎁 ¡Primer regalo repetido! |     🟢     | [Show](src/2024/day-one/) | ⭐⭐⭐⭐⭐ |
-| 02 |🖼️ Enmarcando nombres |     🟢     | [Show](src/2024/day-two/) | ⭐⭐⭐⭐⭐ |
+| #  |            Name            | Difficulty |          Solution          | Score |
+|:--:|:--------------------------:|:----------:|:--------------------------:|:-----:|
+| 01 |🎁 ¡Primer regalo repetido! |     🟢     | [Show](src/2024/day-one/)  | ⭐⭐⭐⭐⭐ |
+| 02 |🖼️ Enmarcando nombres |     🟢     | [Show](src/2024/day-two/)  | ⭐⭐⭐⭐⭐ |
+| 03 |🏗️ Organizando el inventario |     🟢     | [Show](src/2024/day-three) | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
