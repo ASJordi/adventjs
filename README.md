@@ -42,15 +42,16 @@
 <details open>
   <summary>Show / Hide</summary>
 
-| #  |                               Name                               | Difficulty |          Solution          | Score |
-|:--:|:----------------------------------------------------------------:|:----------:|:--------------------------:|:-----:|
-| 01 |                   🎁 ¡Primer regalo repetido!                    |     🟢     | [Show](src/2024/day-one/)  | ⭐⭐⭐⭐⭐ |
-| 02 |                      🖼️ Enmarcando nombres                      |     🟢     | [Show](src/2024/day-two/)  | ⭐⭐⭐⭐⭐ |
-| 03 |                  🏗️ Organizando el inventario                   |     🟢     | [Show](src/2024/day-three) | ⭐⭐⭐⭐⭐ |
-| 04 |                 🎄 Decorando el árbol de Navidad                 |     🟠     | [Show](src/2024/day-four)  | ⭐⭐⭐⭐⭐ |
-| 05 |                       👞 Emparejando botas                       |     🟢     | [Show](src/2024/day-five)  | ⭐⭐⭐⭐⭐ |
-| 06 |                  📦 ¿Regalo dentro de la caja?                   |     🟠     |  [Show](src/2024/day-six)  | ⭐⭐⭐⭐⭐ |
-| 07 |                     👹 El ataque del Grinch                      |     🟠     | [Show](src/2024/day-seven) | ⭐⭐⭐⭐⭐ |
+| #  |                  Name                  | Difficulty |              Solution              | Score |
+|:--:|:--------------------------------------:|:----------:|:----------------------------------:|:-----:|
+| 01 |      🎁 ¡Primer regalo repetido!       |     🟢     |     [Show](src/2024/day-one/)      | ⭐⭐⭐⭐⭐ |
+| 02 |         🖼️ Enmarcando nombres         |     🟢     |     [Show](src/2024/day-two/)      | ⭐⭐⭐⭐⭐ |
+| 03 |     🏗️ Organizando el inventario      |     🟢     |     [Show](src/2024/day-three)     | ⭐⭐⭐⭐⭐ |
+| 04 |    🎄 Decorando el árbol de Navidad    |     🟠     |     [Show](src/2024/day-four)      | ⭐⭐⭐⭐⭐ |
+| 05 |          👞 Emparejando botas          |     🟢     |     [Show](src/2024/day-five)      | ⭐⭐⭐⭐⭐ |
+| 06 |     📦 ¿Regalo dentro de la caja?      |     🟠     |      [Show](src/2024/day-six)      | ⭐⭐⭐⭐⭐ |
+| 07 |        👹 El ataque del Grinch         |     🟠     |     [Show](src/2024/day-seven)     | ⭐⭐⭐⭐⭐ |
+| 08 |      🦌 La carrera de renos            |     🟢     |     [Show](src/2024/day-eight)     | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
