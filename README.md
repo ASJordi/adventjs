@@ -53,6 +53,7 @@
 | 07 |     👹 El ataque del Grinch      |     🟠     | [Show](src/2024/day-seven) | ⭐⭐⭐⭐⭐ |
 | 08 |      🦌 La carrera de renos      |     🟢     | [Show](src/2024/day-eight) | ⭐⭐⭐⭐⭐ |
 | 09 |        🚂 El tren mágico         |     🟠     | [Show](src/2024/day-nine)  | ⭐⭐⭐⭐⭐ |
+| 10 |   👩‍💻 El ensamblador élfico    |     🟠     |  [Show](src/2024/day-ten)  | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
