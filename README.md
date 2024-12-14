@@ -57,6 +57,7 @@
 | 11 | 🏴‍☠️ Nombres de archivos codificados |     🟢     |  [Show](src/2024/day-eleven)  | ⭐⭐⭐⭐⭐ |
 | 12 |      💵 ¿Cuánto cuesta el árbol?      |     🟢     |  [Show](src/2024/day-twelve)  | ⭐⭐⭐⭐⭐ |
 | 13 |     🤖 ¿El robot está de vuelta?      |     🔴     | [Show](src/2024/day-thirteen) | ⭐⭐⭐⭐⭐ |
+| 14 |        🦌 Acomodando los renos        |     🟢     | [Show](src/2024/day-fourteen) | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
