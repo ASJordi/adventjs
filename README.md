@@ -59,6 +59,7 @@
 | 13 |     🤖 ¿El robot está de vuelta?      |     🔴     | [Show](src/2024/day-thirteen) | ⭐⭐⭐⭐⭐ |
 | 14 |        🦌 Acomodando los renos        |     🟢     | [Show](src/2024/day-fourteen) | ⭐⭐⭐⭐⭐ |
 | 15 |          ✏️ Dibujando tablas          |     🟢     | [Show](src/2024/day-fifteen)  | ⭐⭐⭐⭐⭐ |
+| 16 |   ❄️ Limpiando la nieve del camino    |     🟢     | [Show](src/2024/day-sixteen)  | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
