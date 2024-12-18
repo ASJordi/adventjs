@@ -61,6 +61,7 @@
 | 15 |          ✏️ Dibujando tablas          |     🟢     |  [Show](src/2024/day-fifteen)  | ⭐⭐⭐⭐⭐ |
 | 16 |   ❄️ Limpiando la nieve del camino    |     🟢     |  [Show](src/2024/day-sixteen)  | ⭐⭐⭐⭐⭐ |
 | 17 |    💣 Busca las bombas del Grinch     |     🟠     | [Show](src/2024/day-seventeen) | ⭐⭐⭐⭐⭐ |
+| 18 |     📇 La agenda mágica de Santa      |     🔴     | [Show](src/2024/day-eighteen)  | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
