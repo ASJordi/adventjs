@@ -1,0 +1,290 @@
+import { expect, test } from 'vitest';
+import { generateGiftSets } from "../../src/2024/day-twenty-two/index.js";
+
+test('Test #01 - Return type', () => {
+    expect(typeof generateGiftSets(['car'])).toBe("object")
+})
+
+test('Test #02', () => {
+    expect(generateGiftSets(['car'])).toStrictEqual(
+        [
+            [
+                "car"
+            ]
+        ]
+    )
+})
+
+test('Test #03', () => {
+    expect(generateGiftSets(['car', 'doll'])).toStrictEqual(
+        [
+            [
+                "car"
+            ],
+            [
+                "doll"
+            ],
+            [
+                "car",
+                "doll"
+            ]
+        ]
+    )
+})
+
+test('Test #04', () => {
+    expect(generateGiftSets(['car', 'doll', 'puzzle'])).toStrictEqual(
+        [
+            [
+                "car"
+            ],
+            [
+                "doll"
+            ],
+            [
+                "puzzle"
+            ],
+            [
+                "car",
+                "doll"
+            ],
+            [
+                "car",
+                "puzzle"
+            ],
+            [
+                "doll",
+                "puzzle"
+            ],
+            [
+                "car",
+                "doll",
+                "puzzle"
+            ]
+        ]
+    )
+})
+
+test('Test #05', () => {
+    expect(generateGiftSets(['apple', 'banana', 'cherry', 'date'])).toStrictEqual(
+        [
+            [
+                "apple"
+            ],
+            [
+                "banana"
+            ],
+            [
+                "cherry"
+            ],
+            [
+                "date"
+            ],
+            [
+                "apple",
+                "banana"
+            ],
+            [
+                "apple",
+                "cherry"
+            ],
+            [
+                "apple",
+                "date"
+            ],
+            [
+                "banana",
+                "cherry"
+            ],
+            [
+                "banana",
+                "date"
+            ],
+            [
+                "cherry",
+                "date"
+            ],
+            [
+                "apple",
+                "banana",
+                "cherry"
+            ],
+            [
+                "apple",
+                "banana",
+                "date"
+            ],
+            [
+                "apple",
+                "cherry",
+                "date"
+            ],
+            [
+                "banana",
+                "cherry",
+                "date"
+            ],
+            [
+                "apple",
+                "banana",
+                "cherry",
+                "date"
+            ]
+        ]
+    )
+})
+
+test('Test #06', () => {
+    expect(generateGiftSets(['pen', 'notebook', 'eraser', 'pencil', 'marker'])).toStrictEqual(
+        [
+            [
+                "pen"
+            ],
+            [
+                "notebook"
+            ],
+            [
+                "eraser"
+            ],
+            [
+                "pencil"
+            ],
+            [
+                "marker"
+            ],
+            [
+                "pen",
+                "notebook"
+            ],
+            [
+                "pen",
+                "eraser"
+            ],
+            [
+                "pen",
+                "pencil"
+            ],
+            [
+                "pen",
+                "marker"
+            ],
+            [
+                "notebook",
+                "eraser"
+            ],
+            [
+                "notebook",
+                "pencil"
+            ],
+            [
+                "notebook",
+                "marker"
+            ],
+            [
+                "eraser",
+                "pencil"
+            ],
+            [
+                "eraser",
+                "marker"
+            ],
+            [
+                "pencil",
+                "marker"
+            ],
+            [
+                "pen",
+                "notebook",
+                "eraser"
+            ],
+            [
+                "pen",
+                "notebook",
+                "pencil"
+            ],
+            [
+                "pen",
+                "notebook",
+                "marker"
+            ],
+            [
+                "pen",
+                "eraser",
+                "pencil"
+            ],
+            [
+                "pen",
+                "eraser",
+                "marker"
+            ],
+            [
+                "pen",
+                "pencil",
+                "marker"
+            ],
+            [
+                "notebook",
+                "eraser",
+                "pencil"
+            ],
+            [
+                "notebook",
+                "eraser",
+                "marker"
+            ],
+            [
+                "notebook",
+                "pencil",
+                "marker"
+            ],
+            [
+                "eraser",
+                "pencil",
+                "marker"
+            ],
+            [
+                "pen",
+                "notebook",
+                "eraser",
+                "pencil"
+            ],
+            [
+                "pen",
+                "notebook",
+                "eraser",
+                "marker"
+            ],
+            [
+                "pen",
+                "notebook",
+                "pencil",
+                "marker"
+            ],
+            [
+                "pen",
+                "eraser",
+                "pencil",
+                "marker"
+            ],
+            [
+                "notebook",
+                "eraser",
+                "pencil",
+                "marker"
+            ],
+            [
+                "pen",
+                "notebook",
+                "eraser",
+                "pencil",
+                "marker"
+            ]
+        ]
+    )
+})
+
+test('Test #07', () => {
+    expect(generateGiftSets([])).toStrictEqual(
+        []
+    )
+})
