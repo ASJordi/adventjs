@@ -67,6 +67,7 @@
 | 21 |    🎄 Calcula la altura del árbol de Navidad    |     🟢     |  [Show](src/2024/day-twenty-one)  | ⭐⭐⭐⭐⭐ |
 | 22 |       🎁 Genera combinaciones de regalos        |     🟠     |  [Show](src/2024/day-twenty-two)  | ⭐⭐⭐⭐⭐ |
 | 23 |        🔢 Encuentra los números perdidos        |     🟢     | [Show](src/2024/day-twenty-three) | ⭐⭐⭐⭐⭐ |
+| 24 | 🪞 Verifica si los árboles son espejos mágicos  |     🟠     | [Show](src/2024/day-twenty-four)  | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
