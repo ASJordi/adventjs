@@ -69,6 +69,7 @@
 | 23 |        🔢 Encuentra los números perdidos        |     🟢     | [Show](src/2024/day-twenty-three) | ⭐⭐⭐⭐⭐ |
 | 24 | 🪞 Verifica si los árboles son espejos mágicos  |     🟠     | [Show](src/2024/day-twenty-four)  | ⭐⭐⭐⭐⭐ |
 | 25 |          🪄 Ejecuta el lenguaje mágico          |     🟠     | [Show](src/2024/day-twenty-five)  | ⭐⭐⭐⭐⭐ |
+| 26 |      🎯 Calculate the completed percentage      |     🟢     |  [Show](src/2024/day-twenty-six)  | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
