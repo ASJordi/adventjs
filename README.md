@@ -68,6 +68,7 @@
 | 22 |       🎁 Genera combinaciones de regalos        |     🟠     |  [Show](src/2024/day-twenty-two)  | ⭐⭐⭐⭐⭐ |
 | 23 |        🔢 Encuentra los números perdidos        |     🟢     | [Show](src/2024/day-twenty-three) | ⭐⭐⭐⭐⭐ |
 | 24 | 🪞 Verifica si los árboles son espejos mágicos  |     🟠     | [Show](src/2024/day-twenty-four)  | ⭐⭐⭐⭐⭐ |
+| 25 |          🪄 Ejecuta el lenguaje mágico          |     🟠     | [Show](src/2024/day-twenty-five)  | ⭐⭐⭐⭐⭐ |
 
 **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard
 
